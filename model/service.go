@@ -37,6 +37,8 @@ type Instance struct {
 	InstanceHeartBeatInterval int               `json:"instanceHeartBeatInterval"`
 	IpDeleteTimeout           int               `json:"ipDeleteTimeout"`
 	InstanceHeartBeatTimeOut  int               `json:"instanceHeartBeatTimeOut"`
+	Cpu                       float64           `json:"cpu"`
+	Gpu                       float64           `json:"gpu"`
 }
 
 type Service struct {
